@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Roadangel21",
+    "slug": "Roadangel21",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "android": {
+        "package": "com.mat592.Roadangel21",
+        "googleServicesFile": "google-services.json"
+      },
+      "ios": {
+        "bundleIdentifier": "com.mypackage.Roadangel21",
+        "googleServicesFile": "GoogleService-Info.json",
+        "config": {
+          "googleSignIn": {
+            "reservedClientId": "com.googleusercontent.apps.672618113083-upao6ua8efp4p2r5q3vl738or541g1us"
+          }
+      },
+      "web": {
+        "config": {
+          "firebase": {
+            "apiKey": "AIzaSyADkDs9tS0_bxXYYS2b-cX-tg2bE95Oyjo",
+            "authDomain": "roadangel21-c64f8.firebaseapp.com",
+            "projectId": "roadangel21-c64f8",
+            "storageBucket": "roadangel21-c64f8.appspot.com",
+            "messagingSenderId": "672618113083",
+            "appId": "1:672618113083:web:7d33caf2889bb1e6c1541e",
+            "measurementId": "G-HJ87BMN9DE"
+          }
+        }
+      }
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+    }
+  }
+}

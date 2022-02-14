@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "672618113083",
+    "project_id": "roadangel21-c64f8",
+    "storage_bucket": "roadangel21-c64f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672618113083:android:9efab5d6afef88dcc1541e",
+        "android_client_info": {
+          "package_name": "com.fremat.roadangel21"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672618113083-5leqjnjac1bdn15msqp8q9k9fe45lu3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsxDr3wNitIPQ02sSJamybrQbnomNkLLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672618113083-5leqjnjac1bdn15msqp8q9k9fe45lu3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
