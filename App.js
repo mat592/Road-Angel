@@ -45,7 +45,7 @@ function cacheImages(images) {
     }
   });
 }
-/******************************************* */
+/*******************************************
 
 const Stack = createStackNavigator();
 
@@ -118,7 +118,7 @@ function MyStack() {
       />
     </Stack.Navigator>
   );
-}
+}*/
 /*
 export default function App() {
   return (
@@ -145,7 +145,7 @@ export default class App extends React.Component {
       );
     } else {
       return (
-       /*<NavigationContainer>
+       <NavigationContainer>
           <MyStack />
           <GalioProvider theme={materialTheme}>
             <Block flex>
@@ -154,14 +154,14 @@ export default class App extends React.Component {
             </Block>
           </GalioProvider>
         </NavigationContainer>
-        -------------------
+       /* -------------------
       <Stack.Navigator mode="card" headerMode="none">
       <Stack.Screen name="mystack" component={MyStack}  />
       <Stack.Screen name="screens" component={Screens} />
-    </Stack.Navigator>*/
+    </Stack.Navigator>
       <NavigationContainer>
         <MyStack />
-      </NavigationContainer>
+      </NavigationContainer>*/
       );
     }
   }
