@@ -11,6 +11,9 @@ import OnboardingScreen from '../screens/Onboarding';
 import ProfileScreen from '../screens/Profile';
 import ProScreen from '../screens/Pro';
 import SettingsScreen from '../screens/Settings';
+import Login from '../components/login';
+import Signup from '../components/signup';
+
 
 import CustomDrawerContent from './Menu';
 import { Icon, Header } from '../components';
@@ -299,75 +302,16 @@ function AppStack(props) {
   );
 }
 
-function MyStack() {
-  return (
-    <Stack.Navigator
-      initialRouteName="Onboarding"
-      screenOptions={{
-        headerTitleAlign: 'center',
-        headerStyle: {
-          backgroundColor: '#3740FE',
-        },
-        headerTintColor: '#fff',
-        headerTitleStyle: {
-          fontWeight: 'bold',
-        },
-      }}>
-      <Stack.Screen 
-        name="Signup" 
-        component={Signup} 
-        options={{ title: 'Signup' }}
-      />       
-      <Stack.Screen 
-        name="Login" 
-        component={Login} 
-        options={
-          {title: 'Login'}
-        }
-      />
-      <Stack.Screen 
-       name="Dashboard" 
-       component={Dashboard} 
-       options={
-         { title: 'Dashboard' }
-       }
-      />
-      <Stack.Screen 
-       name="LoginSocial" 
-       component={LoginSocial} 
-       options={
-         { title: 'Login with Google' }
-       }
-      />
-      <Stack.Screen 
-       name="Onboarding" 
-       component={Onboarding} 
-       options={
-         { title: 'Onboarding' }
-       } 
-      />
-      <Stack.Screen 
-       name="Home" 
-       component={Home} 
-       options={
-         { title: 'Home' }
-       }
-      />
-      <Stack.Screen 
-       name="Screens" 
-       component={Screens} 
-       options={
-         { title: 'Screens' }
-       }
-      />
-    </Stack.Navigator>
-  );
-}
-
 export default function OnboardingStack(props) {
   return (
     <Stack.Navigator mode="card" headerMode="none">
-      <Stack.Screen name="Onboarding" component={MyStack} />
+      <Stack.Screen
+        name="Onboarding"
+        component={OnboardingScreen}
+        option={{
+          headerTransparent: true
+        }}
+      />
       <Stack.Screen name="App" component={AppStack} />
     </Stack.Navigator>
   );
